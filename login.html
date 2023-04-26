@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark"><!--navbar-->
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Gabriel Borges</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon" ></span>
+          </button><!--Button that collapse items-->
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav "><!--List with the links -->
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Login/Registro</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://github.com/gabrieldb14" target="_blank">Github</a>
+                </li>
+              </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container" id="container1">
+      <div class="row" id="row1">
+        <div class="col-2 col-lg-3 col-xl-4 col-xxl-4 align-content-center"></div><!--Primeiro Void-->
+
+        <div  id="main-login" class="col-8 col-lg-6 col-xl-4 col-xxl-4 justify-content-center">
+          <h1>Login</h1>
+          <p>Coloque seus dados para entrar:</p>
+          <form action="">
+            <div class="mb-3 mt-3">
+              <label for="email" class="form-label">E-mail:</label>
+              <input type="email" class="form-control" name="email" placeholder="example@example.com" id="email" required>
+            </div>
+            <div class="mb-3">
+              <label for="pwd" class="form-label">Senha:</label>
+              <input type="password" class="form-control" name="pwd" id="pwd" placeholder="Insira sua senha." required>
+            </div>
+            <div class="form-check mb-3">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="remember" id="remember">Lembre-me
+              </label>
+            </div>
+            <button type="submit" class="btn" id="button">Entrar</button>
+          </form>
+          <div id="register"><p>Ainda não tem uma conta? <a href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Em Breve..." class="disabled">Crie uma!</a></p>
+          </div>
+        </div>
+        
+        <div class="col-2 col-lg-3 col-xl-4 col-xxl-4 align-content-center"></div><!--Segundo Void-->
+
+      </div>
+
+    </div>
+</body>
+</html>
